@@ -1,4 +1,4 @@
-﻿@model IEnumerable<TaskManagmentSystem.Models.TaskModel>
+﻿@model IEnumerable<TaskManagementSystem.Models.TaskModel>
 
 @{
     ViewData["Title"] = "Task Manager";
@@ -46,7 +46,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             @await Html.PartialAsync("_CreateTaskModal",
-            new TaskManagmentSystem.Models.TaskCreateVM())
+            new TaskManagementSystem.Models.TaskCreateVM())
         </div>
     </div>
 </div>

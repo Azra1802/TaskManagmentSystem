@@ -1,4 +1,4 @@
-﻿@model TaskManagmentSystem.Models.TaskEditVM
+﻿@model TaskManagementSystem.Models.TaskEditVM
 
 <div class="modal-header">
     <h5 class="modal-title">Edit Task</h5>
@@ -23,18 +23,18 @@
         <div class="col-md-6 mb-3">
             <span>@Html.DisplayNameFor(model => model.Status) </span>
             <select id="edit-status" class="form-select">
-                <option value="0" selected="@(Model.Status == TaskManagmentSystem.Models.TaskStatus.ToDo)">ToDo</option>
-                <option value="1" selected="@(Model.Status == TaskManagmentSystem.Models.TaskStatus.InProgress)">InProgress</option>
-                <option value="2" selected="@(Model.Status == TaskManagmentSystem.Models.TaskStatus.Completed)">Completed</option>
+                <option value="0" selected="@(Model.Status == TaskManagementSystem.Models.TaskStatus.ToDo)">ToDo</option>
+                <option value="1" selected="@(Model.Status == TaskManagementSystem.Models.TaskStatus.InProgress)">InProgress</option>
+                <option value="2" selected="@(Model.Status == TaskManagementSystem.Models.TaskStatus.Completed)">Completed</option>
             </select>
         </div>
 
         <div class="col-md-6 mb-3">
             <span>@Html.DisplayNameFor(model => model.Priority) </span>
             <select id="edit-priority" class="form-select">
-                <option value="0" selected="@(Model.Priority == TaskManagmentSystem.Models.TaskPriority.Low)">Low</option>
-                <option value="1" selected="@(Model.Priority == TaskManagmentSystem.Models.TaskPriority.Medium)">Medium</option>
-                <option value="2" selected="@(Model.Priority == TaskManagmentSystem.Models.TaskPriority.High)">High</option>
+                <option value="0" selected="@(Model.Priority == TaskManagementSystem.Models.TaskPriority.Low)">Low</option>
+                <option value="1" selected="@(Model.Priority == TaskManagementSystem.Models.TaskPriority.Medium)">Medium</option>
+                <option value="2" selected="@(Model.Priority == TaskManagementSystem.Models.TaskPriority.High)">High</option>
             </select>
         </div>
     </div>

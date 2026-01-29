@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using TaskManagmentSystem.Models;
-using TaskManagmentSystem.Services.Task;
+using TaskManagementSystem.Models;
+using TaskManagementSystem.Services.Task;
 
-namespace TaskManagmentSystem.Controllers.Tasks
+namespace TaskManagementSystem.Controllers.Tasks
 {
 
     public class TasksController : Controller

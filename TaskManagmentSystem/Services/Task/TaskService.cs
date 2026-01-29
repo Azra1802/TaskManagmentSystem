@@ -1,8 +1,8 @@
-﻿using TaskManagmentSystem.Models;
-using TaskStatus = TaskManagmentSystem.Models.TaskStatus;
+﻿using TaskManagementSystem.Models;
+using TaskStatus = TaskManagementSystem.Models.TaskStatus;
 
 
-namespace TaskManagmentSystem.Services.Task
+namespace TaskManagementSystem.Services.Task
 {
     public class TaskService : ITaskService
     {

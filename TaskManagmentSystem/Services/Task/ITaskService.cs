@@ -1,6 +1,6 @@
-﻿using TaskManagmentSystem.Models;
+﻿using TaskManagementSystem.Models;
 
-namespace TaskManagmentSystem.Services.Task
+namespace TaskManagementSystem.Services.Task
 {
     public interface ITaskService
     {
